@@ -19,7 +19,8 @@ The assessed data should be read as:
     LabelPath = r"Data\truth"
     PredictPath = r"Data\merge"
 
-The sample size can be adjusted as:
+The sample size can be adjusted by:
+
     a1, b1, c1, d1 = train_test_split(truth, predictt, test_size=0.1, train_size = 0.9, random_state= 3)
 
 test1.png and test2.png are sample image should be put in different folder.
